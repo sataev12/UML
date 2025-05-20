@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Page-1" id="gcdVkXMl-r7xvmCYRc7T">
+    <mxGraphModel dx="786" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-1" value="Personne" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="330" height="494" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-2" value="- nom: string&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-5" value="- prenom: string&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="52" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-11" value="- dateNaissance: Date&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="80" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-24" value="- /age: Int&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="108" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-12" value="- sexe: string&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="136" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-13" value="- revenu_salaire: float&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="164" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-14" value="- revenu_autre: float&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="192" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-17" value="- &lt;u&gt;coef_salaire&lt;/u&gt;: float = 0.2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontStyle=0;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="220" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-18" value="- &lt;u&gt;coef_autres&lt;/u&gt;: float = 0.15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontStyle=0;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="248" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-20" value="- decidé: boolean = false" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="276" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="304" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-4" value="+ calculRevenu(): Float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="312" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-19" value="+ calculCharge(): Float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="338" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-16" value="+&amp;nbsp; Personne(nom: String, dateNaissance: Date): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="364" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-21" value="+ getNom(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="390" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-22" value="+ getPrenom(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="416" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-25" value="+ setPrenom(nvx_prenom: String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="442" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Df7A5HrIzo5vBL_NjkHS-23" value="+ getAge(): Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Df7A5HrIzo5vBL_NjkHS-1">
+          <mxGeometry y="468" width="330" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
